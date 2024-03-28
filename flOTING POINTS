@@ -1,0 +1,45 @@
+#include<stdio.h>
+int main(){
+	float a, b, s;
+	printf("enter the a and b values:");
+	scanf("%f%f",&a,&b);
+	s=a+b;
+	printf("sum of two numbers is %f",s);
+	return 0;
+}
+
+
+\\SUB 
+#include<stdio.h>
+int main(){
+	float a, b, sub;
+	printf("enter the a and b values:");
+	scanf("%f%f",&a,&b);
+	sub=a-b;
+	printf("sub of two numbers is %f",sub);
+	return 0;
+}
+\\MULTI
+#include <stdio.h>
+
+int main() {
+    float num1 = 2.5;
+    float num2 = 3.2;
+    float product;
+    product = num1 * num2;
+    printf("The product of %f and %f is %f\n", num1, num2, product);
+
+    return 0;
+}
+\\DIVISION:
+#include <stdio.h>
+
+int main() {
+    float dividend = 10.0;
+    float divisor = 3.0;
+    float quotient;
+    quotient = dividend / divisor;
+    printf("The quotient of %f divided by %f is %f\n", dividend, divisor, quotient);
+
+    return 0;
+}
